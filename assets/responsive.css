@@ -1,0 +1,68 @@
+/* media queries */
+
+@media (max-width: 1024px) {
+    /* HEADER start */
+    header {
+        padding: 12px 20px;
+    }
+    header .navigation {
+        display: none;
+    }
+    header .navigation.active {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(1, 1, 1, 0.5);
+    }
+    header .navigation .navigation-items a {
+        width: 100%;
+        height: 30px;
+        color: #222;
+        margin: 20px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    header .navigation .navigation-items a:before {
+        transition: 0s ease;
+    }
+    header .navigation .navigation-items a:hover {
+        background: #086747;
+    }
+    header .navigation.active .navigation-items {
+        background: white;
+        width: 600px;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+    }
+    .menu-btn {
+        background: url('../icons/menu.png')no-repeat;
+        background-size: 30px;
+        background-position: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    .menu-btn.active {
+        z-index: 999;
+        background: url('../icons/close.png')no-repeat;
+        background-size: 25px;
+        background-position: center;
+        transition: 0.3s ease;
+    }
+    /* HEADER end */
+    /* MAIN start */
+    main {
+        padding: 100px 20px;
+    }
+    /* MAIN end */
+}
