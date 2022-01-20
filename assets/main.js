@@ -1,10 +1,13 @@
 // gerador de textos: https://www.lipsum.com/
 
+
+
 // nome da empresa
 const COMPANY = "SANLIS"
 const COMPANY_COMPLETE = "SANLIS GESTAO"
 $(".company").html(COMPANY);
 $(".company-complete").html(COMPANY_COMPLETE);
+
 
 
 // paginas do site
@@ -21,9 +24,11 @@ $("#nav-section4").html(NAV_SECTION_4);
 $("#nav-section5").html(NAV_SECTION_5);
 
 
+
 // footer
 const COPYRIGHT = "Copyright © Angelita Santos 2022. Todos os direitos reservados."
 $("#copyright").html(COPYRIGHT);
+
 
 
 // cards (text)
@@ -92,3 +97,16 @@ $("#card-text27").html(card_text27);
 $("#card-text28").html(card_text28);
 $("#card-text29").html(card_text29);
 $("#card-text30").html(card_text30);
+
+
+
+// slides (text)
+var slide_text01 = "Slide 01 - Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+var slide_text02 = "Slide 02 - Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+var slide_text03 = "Slide 03 - Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+var slide_text04 = "Slide 04 - Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+
+$("#slide-text01").html(slide_text01);
+$("#slide-text02").html(slide_text02);
+$("#slide-text03").html(slide_text03);
+$("#slide-text04").html(slide_text04);

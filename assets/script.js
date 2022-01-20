@@ -1,4 +1,4 @@
-// responsive navigation menu
+// navigation menu
 
 const MENU_BTN = document.querySelector(".menu-btn");
 const NAVIGATION = document.querySelector(".navigation");
@@ -7,6 +7,7 @@ MENU_BTN.addEventListener("click", () => {
     MENU_BTN.classList.toggle("active");
     NAVIGATION.classList.toggle("active");
 });
+
 
 
 // pagination
@@ -84,4 +85,95 @@ $(function() {
         return showPage(currentPage - 1);
     });
 
+});
+
+
+
+// navigation slide image
+
+const SLIDER = document.querySelector(".slider");
+const PREV_BTN = document.querySelector(".prev-btn");
+const NEXT_BTN = document.querySelector(".next-btn");
+const SLIDES = document.querySelectorAll(".slide");
+const SLIDE_ICONS = document.querySelectorAll(".slide-icon");
+const NUMBER_OF_SLIDES = SLIDES.length;
+
+var slideNumber = 0;
+
+// image slide next button
+NEXT_BTN.addEventListener('click', () => {
+    SLIDES.forEach((slide) => {
+        slide.classList.remove("active");
+    });
+
+    SLIDE_ICONS.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+    });
+
+
+    slideNumber++;
+
+    if (slideNumber > (NUMBER_OF_SLIDES - 1)) {
+        slideNumber = 0;
+    }
+
+    SLIDES[slideNumber].classList.add("active");
+    SLIDE_ICONS[slideNumber].classList.add("active");
+});
+
+// image slide previsous button
+PREV_BTN.addEventListener('click', () => {
+    SLIDES.forEach((slide) => {
+        slide.classList.remove("active");
+    });
+
+    SLIDE_ICONS.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+    });
+
+
+    slideNumber--;
+
+    if (slideNumber < 0) {
+        slideNumber = NUMBER_OF_SLIDES - 1;
+    }
+
+    SLIDES[slideNumber].classList.add("active");
+    SLIDE_ICONS[slideNumber].classList.add("active");
+});
+
+// image slide autoplay
+var playSlider;
+
+var repeater = () => {
+    playSlider = setInterval(function() {
+        SLIDES.forEach((slide) => {
+            slide.classList.remove("active");
+        });
+
+        SLIDE_ICONS.forEach((slideIcon) => {
+            slideIcon.classList.remove("active");
+        });
+
+
+        slideNumber++;
+
+        if (slideNumber > (NUMBER_OF_SLIDES - 1)) {
+            slideNumber = 0;
+        }
+
+        SLIDES[slideNumber].classList.add("active");
+        SLIDE_ICONS[slideNumber].classList.add("active");
+    }, 4000);
+}
+repeater();
+
+// stop the image slider autoplay on mouseover
+SLIDER.addEventListener("mouseover", () => {
+    clearInterval(playSlider);
+});
+
+// start the image slider autoplay again on mouseout
+SLIDER.addEventListener("mouseout", () => {
+    repeater();
 });
