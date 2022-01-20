@@ -66,3 +66,27 @@
     }
     /* MAIN end */
 }
+
+@media (max-width: 390px) {
+    h1 {
+        font-size: 2.0em;
+    }
+    .card {
+        max-width: 250px;
+        width: 250px;
+        height: auto;
+        margin: 25px 5px;
+        overflow: hidden;
+    }
+    .card-image img {
+        width: 250px;
+        height: 170px;
+    }
+    .card-info h3 {
+        font-size: 1.6em;
+    }
+    li.page-item.current-page,
+    li.page-item.dots {
+        display: none;
+    }
+}

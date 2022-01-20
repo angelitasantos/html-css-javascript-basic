@@ -24,3 +24,71 @@ $("#nav-section5").html(NAV_SECTION_5);
 // footer
 const COPYRIGHT = "Copyright © Angelita Santos 2022. Todos os direitos reservados."
 $("#copyright").html(COPYRIGHT);
+
+
+// cards (text)
+var card_text01 = "Text 01 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text02 = "Text 02 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text03 = "Text 03 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text04 = "Text 04 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text05 = "Text 05 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text06 = "Text 06 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text07 = "Text 07 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text08 = "Text 08 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text09 = "Text 09 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text10 = "Text 10 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+
+var card_text11 = "Text 11 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text12 = "Text 12 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text13 = "Text 13 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text14 = "Text 14 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text15 = "Text 15 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text16 = "Text 16 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text17 = "Text 17 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text18 = "Text 18 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text19 = "Text 19 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text20 = "Text 20 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+
+var card_text21 = "Text 21 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text22 = "Text 22 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text23 = "Text 23 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text24 = "Text 24 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text25 = "Text 25 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text26 = "Text 26 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text27 = "Text 27 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text28 = "Text 28 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text29 = "Text 29 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text30 = "Text 30 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+
+$("#card-text01").html(card_text01);
+$("#card-text02").html(card_text02);
+$("#card-text03").html(card_text03);
+$("#card-text04").html(card_text04);
+$("#card-text05").html(card_text05);
+$("#card-text06").html(card_text06);
+$("#card-text07").html(card_text07);
+$("#card-text08").html(card_text08);
+$("#card-text09").html(card_text09);
+$("#card-text10").html(card_text10);
+
+$("#card-text11").html(card_text11);
+$("#card-text12").html(card_text12);
+$("#card-text13").html(card_text13);
+$("#card-text14").html(card_text14);
+$("#card-text15").html(card_text15);
+$("#card-text16").html(card_text16);
+$("#card-text17").html(card_text17);
+$("#card-text18").html(card_text18);
+$("#card-text19").html(card_text19);
+$("#card-text20").html(card_text20);
+
+$("#card-text21").html(card_text21);
+$("#card-text22").html(card_text22);
+$("#card-text23").html(card_text23);
+$("#card-text24").html(card_text24);
+$("#card-text25").html(card_text25);
+$("#card-text26").html(card_text26);
+$("#card-text27").html(card_text27);
+$("#card-text28").html(card_text28);
+$("#card-text29").html(card_text29);
+$("#card-text30").html(card_text30);
