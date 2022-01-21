@@ -3,8 +3,8 @@
 
 
 // nome da empresa
-const COMPANY = "SANLIS"
-const COMPANY_COMPLETE = "SANLIS GESTAO"
+const COMPANY = "TRAVEL"
+const COMPANY_COMPLETE = "TRAVEL COMPANY"
 $(".company").html(COMPANY);
 $(".company-complete").html(COMPANY_COMPLETE);
 
@@ -32,38 +32,38 @@ $("#copyright").html(COPYRIGHT);
 
 
 // cards (text)
-var card_text01 = "Text 01 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text02 = "Text 02 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text03 = "Text 03 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text04 = "Text 04 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text05 = "Text 05 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text06 = "Text 06 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text07 = "Text 07 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text08 = "Text 08 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text09 = "Text 09 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text10 = "Text 10 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text01 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
+var card_text02 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
+var card_text03 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
+var card_text04 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
+var card_text05 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
+var card_text06 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
+var card_text07 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
+var card_text08 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
+var card_text09 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
+var card_text10 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
 
-var card_text11 = "Text 11 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text12 = "Text 12 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text13 = "Text 13 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text14 = "Text 14 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text15 = "Text 15 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text16 = "Text 16 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text17 = "Text 17 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text18 = "Text 18 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text19 = "Text 19 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text20 = "Text 20 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text11 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
+var card_text12 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
+var card_text13 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
+var card_text14 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
+var card_text15 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
+var card_text16 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
+var card_text17 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
+var card_text18 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
+var card_text19 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
+var card_text20 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
 
-var card_text21 = "Text 21 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text22 = "Text 22 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text23 = "Text 23 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text24 = "Text 24 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text25 = "Text 25 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text26 = "Text 26 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text27 = "Text 27 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text28 = "Text 28 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text29 = "Text 29 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
-var card_text30 = "Text 30 - Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still."
+var card_text21 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
+var card_text22 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
+var card_text23 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
+var card_text24 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
+var card_text25 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
+var card_text26 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
+var card_text27 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
+var card_text28 = "Praesent vitae cursus risus, at ultricies eros. Morbi ut sapien facilisis, rutrum diam nec, mollis eros. Suspendisse facilisis bibendum sapien, blandit."
+var card_text29 = "Aenean lobortis vehicula tellus non lacinia. In in posuere odio. Nam ullamcorper volutpat odio, at varius justo pellentesque in. Donec a facilisis."
+var card_text30 = "Praesent eget lacus id purus pharetra scelerisque sit amet ut nulla. Duis semper urna et iaculis hendrerit. In at volutpat lacus. Etiam."
 
 $("#card-text01").html(card_text01);
 $("#card-text02").html(card_text02);
@@ -101,12 +101,25 @@ $("#card-text30").html(card_text30);
 
 
 // slides (text)
-var slide_text01 = "Slide 01 - Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-var slide_text02 = "Slide 02 - Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-var slide_text03 = "Slide 03 - Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-var slide_text04 = "Slide 04 - Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+var slide_text01 = "Duis in molestie lectus, in dictum mauris. Suspendisse potenti. Praesent ornare sapien sed eleifend dictum. Praesent non ultrices libero. Ut egestas commodo quam pharetra pretium. Nulla eu blandit turpis. In aliquet eros."
+var slide_text02 = "Praesent porttitor turpis vehicula ante fermentum faucibus. Suspendisse efficitur urna vel purus tristique, ac gravida sapien blandit. Nam tempus justo vitae dictum tincidunt. Curabitur ac consectetur ipsum, at volutpat sapien. Nam eget."
+var slide_text03 = "Nulla molestie est et fermentum ullamcorper. Suspendisse vel commodo sem. Curabitur sagittis turpis vel molestie ultricies. Donec nisl erat, aliquet ac lobortis id, feugiat eu diam. Phasellus aliquam vehicula consectetur. Aliquam at."
+var slide_text04 = "Etiam ut lorem mauris. Donec ultrices ligula ac convallis egestas. Praesent vitae congue quam. Vestibulum facilisis feugiat nibh, vitae pellentesque velit imperdiet et. Donec porttitor ullamcorper congue. Proin nisi augue, dapibus ac."
 
 $("#slide-text01").html(slide_text01);
 $("#slide-text02").html(slide_text02);
 $("#slide-text03").html(slide_text03);
 $("#slide-text04").html(slide_text04);
+
+
+
+// home (text)
+var home_text01 = "Curabitur suscipit mauris at velit porta, non tempus nulla pellentesque. Proin consectetur fringilla sem vitae efficitur. Etiam varius laoreet risus at lobortis. Sed sed nibh faucibus enim consectetur sagittis. Morbi ultrices, magna sit amet commodo viverra, ante nisi convallis leo, non vulputate."
+var home_text02 = "Fusce vitae dui libero. Maecenas id lectus a quam ornare dictum. Aliquam egestas libero at nisi congue hendrerit. Etiam vestibulum sapien eu erat ornare, eget elementum augue faucibus. Nunc condimentum egestas leo, nec ornare enim. Pellentesque a quam semper, accumsan enim eget."
+var home_text03 = "Fusce fermentum dolor felis, eu accumsan neque blandit ac. Fusce porta ante at nibh varius placerat sed vel mauris. Fusce sit amet vehicula tellus. Nullam lectus odio, commodo ac blandit sit amet, mattis ut orci. Sed convallis hendrerit justo a molestie. Etiam. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+var home_text04 = "Cras sed pretium dolor. Duis dapibus dictum mauris, at imperdiet arcu consectetur vulputate. Aenean sed gravida urna. Maecenas efficitur neque urna, nec iaculis justo laoreet vel. Mauris porta mattis efficitur. Integer ac quam vitae sapien malesuada maximus at non lectus. Nam blandit."
+
+$("#home-text01").html(home_text01);
+$("#home-text02").html(home_text02);
+$("#home-text03").html(home_text03);
+$("#home-text04").html(home_text04);
